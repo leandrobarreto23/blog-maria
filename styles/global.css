@@ -7,6 +7,7 @@
   --secondary-color: #108454;
   --terciary-color: #ffdb00;
   --bg-color-nav: #f8f9fa;
+  --border-color: #dadada;
 }
 
 * {
@@ -15,7 +16,7 @@
   box-sizing: border-box;
 }
 
-body, input, button {
+body, input, button, select {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }

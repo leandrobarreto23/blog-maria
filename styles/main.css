@@ -1,0 +1,63 @@
+main {
+  padding-block: 4.4rem;
+  display: grid;
+  gap: 4rem;
+}
+
+section {
+  padding: 3.2rem;
+  border: .2rem solid var(--border-color);
+  border-radius: .6rem;
+}
+
+section h2 {
+  color: var(--primary-color);
+}
+
+section h3 {
+  text-transform: uppercase;
+  color: #636467;
+}
+
+#emphasis div {
+  padding-block: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#emphasis div img {
+  width: 100%;
+  max-width: 48rem;
+  margin-top: 2rem;
+}
+
+#social-links div {
+  margin-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#social-links div i {
+  font-size: 3.5rem;
+  color: var(--primary-color);
+}
+
+#aside {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+#input-select {
+  width: 100%;
+  padding: .8rem 1.2rem;
+  border-radius: .8rem;
+  border-color: var(--border-color);
+  margin-top: 1.2rem;
+}
+
+#input-select:focus {
+  outline: .2rem solid var(--primary-color);
+}
