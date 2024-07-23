@@ -4,7 +4,7 @@
   background-color: var(--bg-color-nav);
 }
 
-#navbar .container {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,6 +24,8 @@ header a h1 {
   font-weight: 600;
   font-size: 2.2rem;
   color: var(--primary-color);
+  line-height: 110%;
+  letter-spacing: -.1rem;
 }
 
 #toggle-menu {
@@ -33,6 +35,7 @@ header a h1 {
   justify-content: center;
   background: none;
   border: none;
+  margin-right: 1.4rem;
 }
 
 #toggle-menu .ph-list {
@@ -58,7 +61,7 @@ header a h1 {
 
 #navlinks {
   list-style: none;
-  text-align: center;
+  text-align: right;
 
   gap: 2.6rem;
   display: flex;
@@ -69,6 +72,7 @@ header a h1 {
   padding: 1.2rem 1.6rem;
   transition: .3s ease;
   color: var(--primary-color);
+  letter-spacing: .1rem;
 }
 
 #navlinks li a:hover {
@@ -82,6 +86,5 @@ header a h1 {
 }
 
 #hire:hover {
-  /* border-color: var(--terciary-color); */
   background-color: var(--primary-color);
 }
