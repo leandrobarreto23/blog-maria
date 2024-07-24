@@ -5,7 +5,7 @@ main {
 }
 
 section {
-  padding: 3.2rem;
+  padding: 3.2rem 2.4rem;
   border: .2rem solid var(--border-color);
   border-radius: .6rem;
 }
@@ -17,7 +17,7 @@ section h2 {
 section h3 {
   text-transform: uppercase;
   color: #636467;
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
 }
 
 #emphasis div {
