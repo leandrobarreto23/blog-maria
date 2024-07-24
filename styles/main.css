@@ -17,6 +17,7 @@ section h2 {
 section h3 {
   text-transform: uppercase;
   color: #636467;
+  margin-bottom: 2rem;
 }
 
 #emphasis div {
@@ -33,7 +34,6 @@ section h3 {
 }
 
 #social-links div {
-  margin-top: 1.6rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -55,9 +55,60 @@ section h3 {
   padding: .8rem 1.2rem;
   border-radius: .8rem;
   border-color: var(--border-color);
-  margin-top: 1.2rem;
 }
 
 #input-select:focus {
   outline: .2rem solid var(--primary-color);
 }
+
+#terms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+}
+
+#terms a {
+  padding: .6rem .8rem;
+  border-radius: .6rem;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  transition: background .3s ease-out;
+}
+
+#terms a:hover {
+  background-color: var(--secondary-color);
+}
+
+#cards-themes {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.card {
+  padding: 1rem;
+  border: .1rem solid var(--border-color);
+  text-align: center;
+  border-radius: .6rem;
+}
+
+.card p {
+  margin-block: 1.2rem 1.6rem;
+}
+
+.card-icon {
+  height: 13rem;
+
+  border-radius: .4rem;
+  color: var(--terciary-color);
+  background-color: var(--secondary-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-icon i {
+  font-size: 6.4rem;
+}
+
